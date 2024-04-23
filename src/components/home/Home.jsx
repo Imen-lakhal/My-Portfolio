@@ -1,9 +1,9 @@
 import React from 'react'
-import profileImg from '../../assets/imen_lakhal-removebg-preview.png';
+import profileImg from '../../assets/cv.png';
 import shapeOne from '../../assets/shape-1.png';
 import shapeTwo from '../../assets/shape-2.png';
+import CV from '../../assets/CV_Imen_Lakhal.pdf'
 import {FaTwitter,FaLinkedin,FaGithub, FaBehance} from 'react-icons/fa'
-import CV from "../../assets/CV 2.pdf"
 import './home.css';
 
 const Home = () => {
