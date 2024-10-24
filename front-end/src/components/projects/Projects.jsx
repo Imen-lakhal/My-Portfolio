@@ -3,6 +3,7 @@ import { testimonials } from '../../Data';
 import shapeTwo from "../../assets/shape-2.png"
 import shapeOne from '../../assets/shape-1.png';
 import testimonialIcon from "../../assets/testimonials-icon.svg"
+import { FaArrowRight } from 'react-icons/fa';
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -53,6 +54,11 @@ const Projects = () => {
            <p className="testimonial__description">{description}</p>
            <h3 className="testimonial__name">{name}</h3>
            <p className="testimonial__author">{author}</p>
+           <br></br>
+           <a href="/" className="link">
+              
+              <FaArrowRight className="link__icon" />
+            </a>
            <img src={shapeTwo} alt="" className="shape c__shape" />
 
           </SwiperSlide>

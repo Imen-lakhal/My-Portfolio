@@ -32,7 +32,9 @@ const Home = () => {
                 <img src={shapeTwo} alt="" className="shape shape__3" />
 
             </div>
-            <p className="home__text">A highly motivated student and quick learner currently in my second year of engineering school, I am seeking a summer internship to apply and further develop my skills, while embarking on the initial steps of my career journey.</p>
+            <p className="home__text">I am currently a third-year computer science engineering student, specializing in software engineering, at the National
+School of Computer Science (ENSI). I am actively seeking an end-of-studies internship in the software engineering field
+and I am eager to apply my skills and knowledge.</p>
             <div className="home__socials">
                 <a href="https://www.behance.net/imenlakhal1" className="home__social-link">
                     <FaBehance />

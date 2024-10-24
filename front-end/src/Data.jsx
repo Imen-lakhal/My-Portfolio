@@ -14,6 +14,8 @@ import Testimonial2 from './assets/TrainTrack.png';
 import Testimonial3 from './assets/testimonial3.PNG';
 import Testimonial4 from './assets/testimonial4.PNG';
 import Testimonial5 from './assets/testimonial5.jpg';
+import Testimonial8 from './assets/testimonial8.png';
+
 
 export const links = [
   {
@@ -67,8 +69,14 @@ export const services = [
     name: ' Apps Development ',
     title: ' iOS & Android ',
     description:
-      'Design Software applications to run on mobile devices. Modern and mobile-ready application that will help you reach all of your marketing.',
+      'Design software applications using Flutter to run on mobile devices. This modern and mobile-ready framework enables the creation of high-performance applications that will help you reach all of your marketing goals.',
   },
+  {
+    id: 6,
+    name: ' DEVOPS ',
+    title: ' DEVOPS ',
+    description: 'A set of practices that combines software development and IT operations to shorten the development lifecycle and ensure continuous delivery with high quality through collaboration and automation, utilizing Docker, Kubernetes, Jenkins, and GitHub Actions.'
+    },
   {
     id: 3,
     name: ' Programming ',
@@ -81,14 +89,14 @@ export const services = [
     name: ' Database ',
     title: ' Data Dynamics ',
     description:
-      ' Building robust database solutions to manage and optimize your data. Proficiency in SQL, MySQL, and PL/SQL enables me to design efficient databases, write complex queries, and ensure data integrity for your applications. ',
+      ' Building robust database solutions to manage and optimize your data. Proficiency in SQL, MySQL, PostgreSQL, and PL/SQL enables me to design efficient databases, write complex queries, and ensure data integrity for your applications.',
   },
   {
     id: 5,
     name: ' Graphic Design ',
     title: ' Visual Storytelling ',
     description:
-      'Crafting captivating visual experiences to convey your message. Proficient in Adobe Photoshop, Illustrator, and Canva, I bring creativity and precision to every design, ensuring aesthetic appeal and brand consistency.',
+      'Crafting captivating visual experiences to convey your message. Proficient in Adobe Photoshop, Illustrator, and Canvas, I bring creativity and precision to every design, ensuring aesthetic appeal and brand consistency.',
   },
 ];
 
@@ -161,6 +169,25 @@ export const skills = [
     description:
       'Utilizing Python to develop versatile and efficient applications. With a focus on readability and concise code, I create robust solutions for data analysis, web development, and automation, ensuring high performance and maintainability.',
   },
+  {
+    id: 13,
+    name: "Docker",
+    percentage: 80,
+    description: "Utilizing Docker to create, deploy, and manage applications in lightweight containers. This approach ensures consistency across different environments, simplifies deployment processes, and enhances scalability and resource utilization."
+},
+{
+    id: 14,
+    name: "Jenkins",
+    percentage: 80,
+    description: "Leveraging Jenkins for continuous integration and continuous deployment (CI/CD) automation. By automating the building, testing, and deployment processes, I ensure faster delivery of high-quality software with improved collaboration among development and operations teams."
+},
+{
+    id: 15,
+    name: "Kubernetes",
+    percentage: 80,
+    description: "Using Kubernetes to orchestrate and manage containerized applications at scale. With a focus on automated deployment, scaling, and management, I create resilient and efficient systems that enhance application availability and streamline operations."
+}
+
   
 ];
 
@@ -287,6 +314,22 @@ export const testimonials = [
     description:
       'Mobile application for users to activate their geolocation and provide feedback, and a web platform for administrators to track employee locations in real-time on an interactive map',
   },
+  {
+    id: 2,
+    img: Testimonial2,
+    name: 'TrainTrack',
+    author: 'January 2024 - May 2024',
+    description:
+      'Mobile application based on GTFS data providing users with easy access to timetables and routes in real time.',
+  },
+  {
+    id: 8,
+    img: Testimonial8,
+    name: 'Python API Development',
+    author: 'August 2024',
+    description:
+      'Built a complete API in Python using FastAPI, set up CI/CD pipelines with GitHub Actions, and automated testing with pytest.',
+  },
   
   {
     id: 3,
@@ -306,14 +349,7 @@ export const testimonials = [
       'The Python Weather App is a command-line application designed to fetch and display real-time weather data for a specified city.',
    
   },
-  {
-    id: 2,
-    img: Testimonial2,
-    name: 'TrainTrack',
-    author: 'January 2024 - May 2024',
-    description:
-      'Mobile application based on GTFS data providing users with easy access to timetables and routes in real time.',
-  },
+  
   {
     id: 6,
     img: Testimonial3,

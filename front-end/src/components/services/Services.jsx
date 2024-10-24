@@ -49,7 +49,7 @@ const Services = () => {
             </a>
             <img src={shapeTwo} alt="" className="shape c__shape" />
           </SwiperSlide>
-        );
+        ); 
           })}
       </Swiper>
 
