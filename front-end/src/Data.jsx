@@ -5,7 +5,7 @@ import Project4 from './assets/project4.jpeg';
 import Project5 from './assets/project5.jpg';
 import Project6 from './assets/project6.jpg';
 
-import Testimonial1 from './assets/myprtfolio.PNG';
+import Testimonial1 from './assets/myprtfolio.png';
 import Testimonial6 from './assets/map.PNG';
 import Testimonial7 from './assets/Capture.PNG';
 
@@ -15,6 +15,7 @@ import Testimonial3 from './assets/testimonial3.PNG';
 import Testimonial4 from './assets/testimonial4.PNG';
 import Testimonial5 from './assets/testimonial5.jpg';
 import Testimonial8 from './assets/testimonial8.png';
+import risk from './assets/welcome.png';
 
 
 export const links = [
@@ -31,24 +32,12 @@ export const links = [
     path: 'skills',
   },
   {
-    name: 'Works',
-    path: 'work',
+    name: 'Projects',
+    path: 'testimonials',
   },
   {
     name: 'Resume',
     path: 'resume',
-  },
-  {
-    name: 'Testimonials',
-    path: 'testimonial',
-  },
-  {
-    name: 'Pricing',
-    path: 'pricing',
-  },
-  {
-    name: 'Blog',
-    path: 'blog',
   },
   {
     name: 'Contact',
@@ -62,7 +51,7 @@ export const services = [
     name: 'Web Development',
     title: 'Web Design & Logo',
     description:
-      'Proficient in front-end technologies such as HTML, CSS, and JavaScript, along with server-side scripting using PHP. These languages form the foundation for building dynamic and interactive web applications.',
+      'Proficient in front-end technologies such as HTML, CSS, and JavaScript. These languages form the foundation for building dynamic and interactive web applications.',
   },
   {
     id: 2,
@@ -71,19 +60,14 @@ export const services = [
     description:
       'Design software applications using Flutter to run on mobile devices. This modern and mobile-ready framework enables the creation of high-performance applications that will help you reach all of your marketing goals.',
   },
-  {
-    id: 6,
-    name: ' DEVOPS ',
-    title: ' DEVOPS ',
-    description: 'A set of practices that combines software development and IT operations to shorten the development lifecycle and ensure continuous delivery with high quality through collaboration and automation, utilizing Docker, Kubernetes, Jenkins, and GitHub Actions.'
-    },
-  {
+    {
     id: 3,
     name: ' Programming ',
     title: ' Mastering the Code ',
     description:
       'Unlocking the potential of programming languages. Proficiency in C, C++, Python, and Java empowers me to tackle diverse projects with precision and innovation, ensuring robust and scalable solutions. ',
   },
+  
   {
     id: 4,
     name: ' Database ',
@@ -91,6 +75,13 @@ export const services = [
     description:
       ' Building robust database solutions to manage and optimize your data. Proficiency in SQL, MySQL, PostgreSQL, and PL/SQL enables me to design efficient databases, write complex queries, and ensure data integrity for your applications.',
   },
+  {
+    id: 6,
+    name: ' DEVOPS ',
+    title: ' DEVOPS ',
+    description: 'A set of practices that combines software development and IT operations to shorten the development lifecycle and ensure continuous delivery with high quality through collaboration and automation, utilizing Docker, Kubernetes, Jenkins, and GitHub Actions.'
+    },
+
   {
     id: 5,
     name: ' Graphic Design ',
@@ -104,7 +95,7 @@ export const skills = [
   {
     id: 1,
     name: 'React.Js',
-    percentage: 85,
+    percentage: 60,
     description:
       'Leveraging ReactJS to build dynamic and responsive user interfaces. With expertise in component-based architecture and virtual DOM, I ensure efficient rendering and seamless user experiences in web applications. ',
   },
@@ -112,23 +103,45 @@ export const skills = [
   {
     id: 2,
     name: 'Flutter',
-    percentage: 75,
+    percentage: 70,
     description:
       ' Utilizing Flutter to develop cross-platform mobile applications with native performance. With its reactive UI framework and hot reload feature, I ensure rapid iteration and deployment of visually stunning apps for both iOS and Android platforms. ',
+  },
+  
+  {
+    id: 10,
+    name: 'Angular',
+    percentage: 70,
+    description:
+      'Utilizing Angular to build dynamic and modular web applications. With strong knowledge in component-based architecture, reactive forms, and services, I ensure maintainable, testable, and scalable front-end solutions.',
+  },
+  {
+    id: 11,
+    name: 'Java',
+    percentage: 70,
+    description:
+      'Proficient in Java for building object-oriented and enterprise-level applications. With experience in developing backend systems, APIs, and integrations, I deliver reliable and maintainable software solutions.',
   },
 
   {
     id: 3,
     name: 'JavaScript',
-    percentage: 70,
+    percentage: 65,
     description:
       'Utilizing JavaScript to craft interactive and high-performance web applications. With a deep understanding of modern frameworks and asynchronous programming, I deliver responsive and dynamic user interfaces.',
+  },
+    {
+    id: 9,
+    name: 'Python',
+    percentage: 80,
+    description:
+      'Utilizing Python to develop versatile and efficient applications. With a focus on readability and concise code, I create robust solutions for data analysis, web development, and automation, ensuring high performance and maintainability.',
   },
 
   {
     id: 4,
     name: 'SQL',
-    percentage: 75,
+    percentage: 80,
     description:
       'Proficient in SQL (Structured Query Language) for database management, with expertise in MySQL and PL/SQL. These technologies are essential for storing, querying, and managing data in relational databases.',
   },
@@ -136,22 +149,15 @@ export const skills = [
   {
     id: 5,
     name: 'Git and GitHub',
-    percentage: 70,
-    description:
-      'Proficien in version control using Git and GitHub empowers me to streamline software development processes, enhance code quality s, and  manage projects from inception to deployment. ',
-  },
-  {
-    id: 6,
-    name: 'Graphic Design',
     percentage: 80,
     description:
-      'Proficient in graphic design tools including Adobe Photoshop, Adobe Illustrator, and Canvas. These tools enable the creation of visually appealing designs and assets for web and mobile applications.',
+      'Proficien in version control using Git and GitHub empowers me to streamline software development processes, enhance code quality s, and  manage projects from inception to deployment. ',
   },
 
   {
     id: 7,
     name: 'Node.js',
-    percentage: 80,
+    percentage: 70,
     description:
       'Using Node.js to build scalable and efficient server-side applications. With a focus on asynchronous programming and robust API development, I create high-performance solutions for handling complex backend processes.',
   },
@@ -162,31 +168,33 @@ export const skills = [
     description:
       'Leveraging Spring Boot to develop robust and scalable Java-based applications. By simplifying configuration and deployment, I create efficient and maintainable solutions with a focus on rapid development and seamless integration.',
   },
-  {
-    id: 9,
-    name: 'Python',
-    percentage: 80,
-    description:
-      'Utilizing Python to develop versatile and efficient applications. With a focus on readability and concise code, I create robust solutions for data analysis, web development, and automation, ensuring high performance and maintainability.',
-  },
+
   {
     id: 13,
     name: "Docker",
-    percentage: 80,
+    percentage: 70,
     description: "Utilizing Docker to create, deploy, and manage applications in lightweight containers. This approach ensures consistency across different environments, simplifies deployment processes, and enhances scalability and resource utilization."
 },
 {
     id: 14,
     name: "Jenkins",
-    percentage: 80,
+    percentage: 50,
     description: "Leveraging Jenkins for continuous integration and continuous deployment (CI/CD) automation. By automating the building, testing, and deployment processes, I ensure faster delivery of high-quality software with improved collaboration among development and operations teams."
 },
 {
     id: 15,
     name: "Kubernetes",
-    percentage: 80,
+    percentage: 40,
     description: "Using Kubernetes to orchestrate and manage containerized applications at scale. With a focus on automated deployment, scaling, and management, I create resilient and efficient systems that enhance application availability and streamline operations."
-}
+},
+  {
+    id: 6,
+    name: 'Graphic Design',
+    percentage: 80,
+    description:
+      'Proficient in graphic design tools including Adobe Photoshop, Adobe Illustrator, and Canvas. These tools enable the creation of visually appealing designs and assets for web and mobile applications.',
+  },
+
 
   
 ];
@@ -249,7 +257,7 @@ export const cv = [
     subtitle: 'National School of Computer Science - ENSI',
     //date: 'September 2022 - Present',
     description:
-      'September 2022 - Present',
+      'September 2022 - June 2025',
     category: 'education',
   },
 
@@ -272,6 +280,15 @@ export const cv = [
       'September 2019 - June 2022',
     category: 'education',
   },
+    {
+    id: 4,
+    title: 'Final Year Project 2025',
+    subtitle: 'TELNET - Tunisia',
+    //date: ' June - July 2023 ',
+    description:
+      'February - June 2025 ',
+    category: 'experience',
+  },
 
   {
     id: 4,
@@ -292,7 +309,7 @@ export const cv = [
     category: 'experience',
   },
 
-  {
+ /* {
     id: 6,
     title: 'Media manager ',
     subtitle: 'IEEE CS ENSI Student Branch Chapter',
@@ -301,11 +318,19 @@ export const cv = [
       'August 2023 - Present',
     category: 'experience',
   },
-
+*/
   
 ];
 
 export const testimonials = [
+    {
+    id: 9,
+    img: risk,
+    name: 'Risk Management Platform',
+    author: 'February 2025 - June 2025',
+    description:
+      'Developed a web-based risk management platform tailored for TELNET, enabling dynamic identification, evaluation, tracking, and mitigation of project and organizational risks. The platform ensures enhanced decision-making, transparency, and real-time monitoring of risk exposure.',
+  },
   {
     id: 1,
     img: Testimonial6,

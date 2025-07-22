@@ -2,7 +2,7 @@ import React from 'react'
 import profileImg from '../../assets/cv.png';
 import shapeOne from '../../assets/shape-1.png';
 import shapeTwo from '../../assets/shape-2.png';
-import CV from '../../assets/CV_Imen_Lakhal.pdf'
+import CV from '../../assets/CV_Imen.pdf'
 import {FaTwitter,FaLinkedin,FaGithub, FaBehance} from 'react-icons/fa'
 import './home.css';
 
@@ -20,7 +20,7 @@ const Home = () => {
             <p className="home__job">
                 <span className="text-cs">
                     I Am
-                </span> <b>Computer Science Engineering Student </b>
+                </span> <b>Computer Science Engineer </b>
             </p>
             <div className="home__img-wrapper">
                 <div className="home__banner">
@@ -32,9 +32,9 @@ const Home = () => {
                 <img src={shapeTwo} alt="" className="shape shape__3" />
 
             </div>
-            <p className="home__text">I am currently a third-year computer science engineering student, specializing in software engineering, at the National
-School of Computer Science (ENSI). I am actively seeking an end-of-studies internship in the software engineering field
-and I am eager to apply my skills and knowledge.</p>
+            <p className="home__text">I am a recently graduated Computer Science engineer from the National School of Computer Science (ENSI), specializing
+in Software Engineering. I am currently seeking a full-time opportunity where I can apply my skills, contribute to innovative
+projects, and continue growing as a software developer.</p>
             <div className="home__socials">
                 <a href="https://www.behance.net/imenlakhal1" className="home__social-link">
                     <FaBehance />

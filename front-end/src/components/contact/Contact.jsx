@@ -52,13 +52,13 @@ const Contact = () => {
                             <FaRegMap />
                         </span>
                         <h3 className="contact__card-title">Address</h3>
-                        <p className="contact__card-data">Manouba, Tunisia</p>
+                        <p className="contact__card-data">Tunis, Tunisia</p>
                     </div>
                     <div className="contact__card">
                         <span className="contact__card-icon">
                             <FaRegUser />
                         </span>
-                        <h3 className="contact__card-title">Internship</h3>
+                        <h3 className="contact__card-title">Job</h3>
                         <p className="contact__card-data">Available Right Now</p>
                     </div>
                     <div className="contact__card">

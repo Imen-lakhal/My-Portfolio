@@ -28,7 +28,7 @@
 }
 .home__subtitle span ,
 .home__title span {
-    color: var(--primary-color);
+    color: hsl(0, 40%, 63%);
 }
 .home__job b {
     font-family: var(--second-font);
@@ -47,7 +47,6 @@
     margin-block: 40px 28px;
     max-width: 520px;
 }
-
 .home__socials{
     display: flex;
     column-gap: 20px;
@@ -82,23 +81,30 @@
     top: -40px;
     right: 12px;
     width: 100%;
-    max-width: 680px;
-    
+    max-width: 580px;
 }
+
 .home__banner{
-    background-color:var(--primary-color) ;
+    background-color:hsl(0, 1%, 61%);
     padding-bottom: 100%;
     border-radius: 50%;
     position: relative;
     z-index: 1;
 }
-.home__profile{
-    position: absolute;
-    bottom: 0;
-    height: 700px;
-    border-radius: 500px;
-    object-fit: cover;
 
+.home__profile {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 90%; /* Réduisez cette valeur si l'image est trop grande */
+    width: auto;
+    object-fit: cover;
+    border-radius: 50%; /* Optionnel - si vous voulez que l'image soit aussi ronde */
+}
+.shape {
+    position: absolute;
+    z-index: -1;
 }
 .shape__1{
     width: 226px;
