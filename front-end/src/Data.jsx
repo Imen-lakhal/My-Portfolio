@@ -5,7 +5,7 @@ import Project4 from './assets/project4.jpeg';
 import Project5 from './assets/project5.jpg';
 import Project6 from './assets/project6.jpg';
 
-import Testimonial1 from './assets/myprtfolio.png';
+import Testimonial1 from './assets/myportfolio.png';
 import Testimonial6 from './assets/map.PNG';
 import Testimonial7 from './assets/Capture.PNG';
 
